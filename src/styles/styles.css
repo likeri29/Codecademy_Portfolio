@@ -1,0 +1,27 @@
+/* aside section and navbar  */
+
+#sidebar {
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    z-index: 3;
+    background-color: lightgray;
+    text-align: center;
+    padding: 1rem;
+}
+
+#sidebar .information {
+    margin-bottom: 3rem;
+    line-height: 3rem;
+}
+
+#sidebar .information img {
+    border: 1px solid white;
+    border-radius: 50%;
+    /* margin-bottom: 2rem; */
+}
+
+#sidebar .foot {
+    position: relative;
+    bottom: 0;
+}
