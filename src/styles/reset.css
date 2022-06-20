@@ -22,6 +22,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	font-family: 'Mukta', sans-serif;
+	font-weight: 200;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 

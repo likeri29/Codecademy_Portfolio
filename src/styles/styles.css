@@ -1,13 +1,32 @@
 /* aside section and navbar  */
 
 #sidebar {
-    width: 25%;
+    width: 20%;
     height: 100%;
     position: fixed;
     z-index: 3;
-    background-color: lightgray;
+    background-color: #f2f3f7;
     text-align: center;
     padding: 1rem;
+    float: left;
+    text-transform: uppercase;
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: black;
+    /* text-transform: uppercase; */
+}
+
+#sidebar a:hover {
+    text-decoration: underline;
+    color: rgb(87, 175, 185);
+    transition: color 0.3s;
+}
+
+#sidebar a:active {
+    text-decoration: underline;
+    color: rgb(87, 175, 185);
 }
 
 #sidebar .information {
@@ -18,10 +37,41 @@
 #sidebar .information img {
     border: 1px solid white;
     border-radius: 50%;
-    /* margin-bottom: 2rem; */
+    margin-bottom: 2rem;
+}
+
+#sidebar .information a {
+    color: rgb(42, 113, 120);
+}
+
+#sidebar nav ul {
+    margin-bottom: 5rem;
+}
+
+#sidebar nav li {
+    line-height: 3rem;
 }
 
 #sidebar .foot {
     position: relative;
+    margin-top: 13rem;
     bottom: 0;
+    color: rgb(132, 131, 131);
+    font-size: 0.75rem;
+}
+
+/* Main Section */
+
+#main {
+    width: 80%;
+    height: 100%;
+    float: right;
+}
+
+#home {
+    min-height: 31.25rem;
+    width: 100%;
+    float: left;
+    background-image: url("https://meshdesignstudio.com/wp-content/uploads/2018/02/mesh-background-portfolio-lglines.jpg");
+    /* background: no-repeat cover center; */
 }
